@@ -63,6 +63,7 @@ It also packages the [Bitnami MariaDB chart](https://artifacthub.io/packages/hel
 | `limesurvey.tableSession`              | LimeSurvey Table sessions; For storing sessions in the database  | `false` |
 | `limesurvey.debug`                     | LimeSurvey Debug level (0, 1, 2)                | `0` |
 | `limesurvey.debugSql`                  | LimeSurvey SQL Debug level (0, 1, 2)            | `0` |
+| `limesurvey.tz`                        | LimeSurvey TimeZone                             | `Europe/Berlin` |
 | `limesurvey.encrypt.keypair`           | LimeSurvey Data encryption keypair              | `nil` |
 | `limesurvey.encrypt.publicKey`         | LimeSurvey Data encryption public key           | `nil` |
 | `limesurvey.encrypt.secretKey`         | LimeSurvey Data encryption secret key           | `nil` |
